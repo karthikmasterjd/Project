@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sethu Thanga Nagai Maaligai | Gold, Silver & Diamond Jewellery - Karaikudi</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Sethu Thanga Nagai Maaligai is your trusted boutique for gold, diamond, and silver jewelry in Kallukatti, Karaikudi. Explore our bridal sets, savings schemes, and live gold rates.">
+    <meta name="keywords"
+        content="Sethu Thanga Maligai, Karaikudi jewelry, gold jewelry, diamond necklace, silver articles, gold savings scheme, live gold rate Karaikudi">
+    <meta name="author" content="Sethu Thanga Nagai Maaligai">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- TOP BAR LIVE RATES TICKER -->
+    <div class="top-bar-ticker" id="topBar">
+        <div class="container">
+            <div class="ticker-contact-info">
+                <a href="tel:+919600877706" id="topPhone"><i class="fa-solid fa-phone"></i> +91 9600877706</a>
+                <a href="#showroom" id="topLoc"><i class="fa-solid fa-location-dot"></i> Karaikudi Showroom</a>
+            </div>
+            <div class="live-ticker-wrap">
+                <div class="live-indicator">
+                    <span class="pulse"></span> LIVE RATES
+                </div>
+                <div class="rates-marquee" id="ratesMarquee">
+                    <span>Gold 22K: <span class="rate-val" id="tickerGold22">₹13,600/g</span></span>
+                    <span>Gold 24K: <span class="rate-val" id="tickerGold24">₹14,837/g</span></span>
+                    <span>Gold 18K: <span class="rate-val" id="tickerGold18">₹11,370/g</span></span>
+                    <span>Silver: <span class="rate-val" id="tickerSilver">₹255/g</span></span>
+                    <span>Platinum: <span class="rate-val" id="tickerPlatinum">₹5,040/g</span></span>
+                    <span class="upt-time-label">Last updated: <span class="updated-time" id="tickerTime">10:00
+                            AM</span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN BRAND HEADER -->
+    <header id="header">
+        <div class="container">
+            <div class="header-main-row">
+                <!-- Brand identity -->
+                <a href="#" class="brand-identity" id="brandLogoLink">
+                    <div class="brand-emblem">S</div>
+                    <div class="brand-meta">
+                        <h1>Sethu Thanga Nagai Maaligai</h1>
+                        <span>Trusted Purity since 1996</span>
+                    </div>
+                </a>
+
+                <!-- Search box -->
+                <div class="search-box-wrap">
+                    <input type="text" id="searchInput"
+                        placeholder="Search gold necklaces, diamond rings, silver plates...">
+                    <button type="button" id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+
+                <!-- User actions and WhatsApp quick link -->
+                <div class="header-actions">
+                    <div class="header-action-btn" id="btnCartToggle">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>My Cart</span>
+                        <span class="badge" id="cartBadgeCount">0</span>
+                    </div>
+                    <div class="header-action-btn" id="btnLoginToggle">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Login</span>
+                    </div>
+                    <a href="https://wa.me/919600877706?text=Hello%20Sethu%20Thanga%20Nagai%20Maaligai%2C%20I'd%20like%20to%20inquire%20about%20your%20jewelleries%20collections."
+                        target="_blank" class="btn-whatsapp-inquiry" id="whatsappQuickContact">
+                        <i class="fa-brands fa-whatsapp"></i> Chat Live
+                    </a>
+                </div>
+
+                <!-- Mobile Navigation Toggle -->
+                <button type="button" class="mobile-nav-toggle" id="mobileMenuBtn" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- NAVIGATION MENU BAR -->
+        <div class="nav-bar-row" id="navigationBar">
+            <div class="container">
+                <ul class="nav-links" id="navLinks">
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li><a href="#collections">Gold Jewellery</a></li>
+                    <li><a href="#collections">Diamond Collection</a></li>
+                    <li><a href="#collections">Silver Articles</a></li>
+                    <li><a href="#savings-scheme">Thangamagal Scheme</a></li>
+                    <li><a href="#virtual-shopping">Book Virtual Tour</a></li>
+                    <li><a href="#showroom">Contact Us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN HOME AREA -->
+    <main id="home">
+
+        <!-- HERO BANNER CAROUSEL -->
+        <section class="hero-slider-container" id="heroSlider">
+            <!-- Slide 1 -->
+            <div class="hero-slide active" style="background-image: url('assets/wedding_banner.png');">
+                <div class="container">
+                    <div class="hero-content">
+                        <span>Royal Wedding Collection</span>
+                        <h2>Embody Royal Grace on Your Blessed Day</h2>
+                        <p>Discover our heirloom-quality South Indian wedding harams, antique chokers, and handcrafted
+                            bridal bangles, verified for absolute purity.</p>
+                        <a href="#collections" class="btn-luxury">Explore Collection</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="hero-slide"
+                style="background-image: url('assets/wedding_banner.png'); filter: hue-rotate(45deg);">
+                <div class="container">
+                    <div class="hero-content">
+                        <span>Sethu Thangamagal Scheme</span>
+                        <h2>Invest in Gold Wisely and Save Big</h2>
+                        <p>Join our popular 11-month gold savings scheme. Get zero wastage (Vazhipadu) and zero making
+                            charges on maturity. Start with just ₹1,000/month.</p>
+                        <a href="#savings-scheme" class="btn-luxury">Plan Your Savings</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slider dots -->
+            <div class="slider-dots" id="sliderDots">
+                <button class="slider-dot active" data-index="0" aria-label="Slide 1"></button>
+                <button class="slider-dot" data-index="1" aria-label="Slide 2"></button>
+            </div>
+        </section>
+
+        <!-- LIVE RATE BOARD & METAL RATE CALCULATOR -->
+        <section class="section-padding" id="rates-board-section">
+            <div class="container">
+                <div class="live-rates-calculator-row">
+                    <!-- Rates Display Board -->
+                    <div class="live-rates-card">
+                        <div class="calc-title">
+                            <i class="fa-solid fa-chart-line"></i>
+                            <h3>Today's Live Jewelry Rates (Karaikudi)</h3>
+                        </div>
+                        <p style="color: var(--text-muted); font-size:14px; margin-top: -10px; margin-bottom: 15px;">
+                            Current board rates for certified gold, silver, and platinum. Purity guaranteed.
+                        </p>
+
+                        <div class="rates-grid">
+                            <div class="rate-box gold-22k">
+                                <span class="rate-label">Gold 22 Karat <span
+                                        style="font-size: 10px; font-weight: normal;">(916 Hallmark)</span></span>
+                                <div class="rate-price" id="boardGold22">₹7,250</div>
+                                <span class="rate-change up" id="changeGold22"><i
+                                        class="fa-solid fa-circle-chevron-up"></i> +₹15 (0.21%)</span>
+                            </div>
+                            <div class="rate-box gold-24k">
+                                <span class="rate-label">Gold 24 Karat <span
+                                        style="font-size: 10px; font-weight: normal;">(Pure Gold)</span></span>
+                                <div class="rate-price" id="boardGold24">₹7,910</div>
+                                <span class="rate-change up" id="changeGold24"><i
+                                        class="fa-solid fa-circle-chevron-up"></i> +₹20 (0.25%)</span>
+                            </div>
+                            <div class="rate-box gold-18k">
+                                <span class="rate-label">Gold 18 Karat <span
+                                        style="font-size: 10px; font-weight: normal;">(For Diamonds)</span></span>
+                                <div class="rate-price" id="boardGold18">₹5,930</div>
+                                <span class="rate-change up" id="changeGold18"><i
+                                        class="fa-solid fa-circle-chevron-up"></i> +₹10 (0.17%)</span>
+                            </div>
+                            <div class="rate-box silver">
+                                <span class="rate-label">Silver <span style="font-size: 10px; font-weight: normal;">(Per
+                                        Gram)</span></span>
+                                <div class="rate-price" id="boardSilver">₹92.50</div>
+                                <span class="rate-change down" id="changeSilver"><i
+                                        class="fa-solid fa-circle-chevron-down"></i> -₹0.20 (-0.22%)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interactive Weight Calculator -->
+                    <div class="calculator-card">
+                        <div class="calc-title">
+                            <i class="fa-solid fa-calculator"></i>
+                            <h3>Metal Cost Estimator</h3>
+                        </div>
+                        <form id="metalCalcForm">
+                            <div class="form-group">
+                                <label for="calcMetalType">Select Metal & Purity</label>
+                                <select id="calcMetalType">
+                                    <option value="gold22">Gold 22K (Hallmarked)</option>
+                                    <option value="gold24">Gold 24K (Pure)</option>
+                                    <option value="gold18">Gold 18K (Diamond Grade)</option>
+                                    <option value="silver">Fine Silver</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="calcWeight">Enter Weight (in Grams)</label>
+                                <input type="number" id="calcWeight" value="8" min="0.1" step="0.01"
+                                    placeholder="e.g. 8 grams (1 sovereign)">
+                            </div>
+                            <button type="submit" class="btn-luxury calc-submit-btn"><i
+                                    class="fa-solid fa-calculator"></i> Calculate Value</button>
+                        </form>
+
+                        <div class="calc-result">
+                            <span>Estimated Metal Price</span>
+                            <div class="calc-result-price" id="calcTotalPrice">₹58,000</div>
+                            <div class="calc-result-details" id="calcDetailText">Based on live 22K Gold rate: ₹7,250/g.
+                                (Excludes local making charges and GST).</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CATEGORIES BROWSER -->
+        <section class="section-padding" style="background-color: #f1f7f6; border-top: 1px solid var(--border-glass);"
+            id="categories">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Shop by Collections</h2>
+                    <p>Explore our curated jewelry designs, from traditional South Indian temple heritage to
+                        contemporary styles.</p>
+                </div>
+
+                <div class="categories-circles-row">
+                    <div class="category-circle-card" data-category="gold">
+                        <div class="circle-img-wrap">
+                            <img src="assets/gold_necklace.png" alt="Gold Jewellery">
+                        </div>
+                        <h4>Gold Jewellery</h4>
+                    </div>
+                    <div class="category-circle-card" data-category="diamond">
+                        <div class="circle-img-wrap">
+                            <i class="fa-solid fa-gem circle-icon"></i>
+                        </div>
+                        <h4>Diamonds</h4>
+                    </div>
+                    <div class="category-circle-card" data-category="silver-jewellery">
+                        <div class="circle-img-wrap">
+                            <i class="fa-solid fa-ring circle-icon"></i>
+                        </div>
+                        <h4>Silver Jewellery</h4>
+                    </div>
+                    <div class="category-circle-card" data-category="silver-articles">
+                        <div class="circle-img-wrap">
+                            <i class="fa-solid fa-om circle-icon"></i>
+                        </div>
+                        <h4>Pooja & Articles</h4>
+                    </div>
+                    <div class="category-circle-card" data-category="coins">
+                        <div class="circle-img-wrap">
+                            <i class="fa-solid fa-coins circle-icon"></i>
+                        </div>
+                        <h4>Gold Coins</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRODUCT CATALOG WITH INTERACTIVE FILTERING -->
+        <section class="section-padding" id="collections">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Signature Collections</h2>
+                    <p>Hand-selected, certified jewelry pieces. Tap any category to narrow down your search.</p>
+                </div>
+
+                <!-- Filter Tabs -->
+                <div class="filter-tabs-row" id="filterTabs">
+                    <button class="filter-tab active" data-filter="all">All Jewelleries</button>
+                    <button class="filter-tab" data-filter="gold">Gold Jewellery</button>
+                    <button class="filter-tab" data-filter="diamond">Diamonds</button>
+                    <button class="filter-tab" data-filter="silver-jewellery">Silver Jewellery</button>
+                    <button class="filter-tab" data-filter="silver-articles">Pooja Articles</button>
+                    <button class="filter-tab" data-filter="coins">Hallmark Coins</button>
+                </div>
+
+                <!-- Products Grid -->
+                <div class="products-grid" id="productsGrid">
+                    <!-- Products will be dynamically populated by app.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- CHIT SAVINGS SCHEME (STM THANGAMAGAL SCHEME) -->
+        <section class="section-padding" id="savings-scheme"
+            style="background-color: #fcfdfd; border-top: 1px solid var(--border-glass); border-bottom: 1px solid var(--border-glass);">
+            <div class="container">
+                <div class="scheme-bg-row">
+                    <!-- Scheme Info -->
+                    <div class="scheme-text-area">
+                        <span class="scheme-badge">Jewellery Savings Scheme</span>
+                        <h3>Sethu Thangamagal Savings Scheme</h3>
+                        <p>Protect yourself from rising gold rates. Save small amounts monthly, and build your gold
+                            collection systematically over 11 months. Upon maturity, purchase gold or diamond jewelry
+                            with exciting discount benefits.</p>
+
+                        <ul class="scheme-features-list">
+                            <li><i class="fa-solid fa-circle-check"></i> <strong>Zero Wastage (Vazhipadu)</strong> on
+                                selected items upon maturity.</li>
+                            <li><i class="fa-solid fa-circle-check"></i> <strong>Zero Making Charges</strong> on gold
+                                ornaments.</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Small installments starting from <strong>₹1,000
+                                    to ₹50,000</strong>.</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Mobile app support to pay installments online
+                                instantly.</li>
+                        </ul>
+
+                        <a href="https://wa.me/919600877706?text=I%20am%20interested%20in%20joining%20the%20Sethu%20Thangamagal%20Savings%20Scheme.%20Please%20send%20details."
+                            target="_blank" class="btn-luxury"><i class="fa-solid fa-file-contract"></i> Join Scheme
+                            Now</a>
+                    </div>
+
+                    <!-- Scheme Calculator Card -->
+                    <div class="scheme-calculator-container">
+                        <div class="calc-title">
+                            <i class="fa-solid fa-compass-drafting"></i>
+                            <h4>Scheme Maturity Planner</h4>
+                        </div>
+                        <p style="color: var(--text-muted); font-size:13px; margin-top: -10px; margin-bottom: 20px;">Use
+                            the sliders below to estimate your gold weight accumulation based on current gold rates.</p>
+
+                        <div class="scheme-slider-group">
+                            <label for="schemeMonthlyPay">
+                                <span>Monthly Installment Amount</span>
+                                <span class="highlight-val">₹<span id="schemeMonthlyVal">5,000</span></span>
+                            </label>
+                            <input type="range" id="schemeMonthlyPay" min="1000" max="50000" step="1000" value="5000">
+                        </div>
+
+                        <div class="scheme-results-board">
+                            <div class="board-row">
+                                <span class="label">Total Months</span>
+                                <span class="val">11 Months</span>
+                            </div>
+                            <div class="board-row">
+                                <span class="label">Your Total Contribution</span>
+                                <span class="val" id="schemeTotalInvest">₹55,000</span>
+                            </div>
+                            <div class="board-row">
+                                <span class="label">Estimated Gold Accumulated</span>
+                                <span class="val" id="schemeGoldAcc">7.59 Grams (Approx)</span>
+                            </div>
+                            <div class="board-row">
+                                <span class="label">Wastage & Making Charges</span>
+                                <span class="val" style="color: #25D366; font-weight: 800;">₹0 (Fully Waived)</span>
+                            </div>
+                            <div class="board-row highlighted-row">
+                                <span class="label">Maturity Purchase Value</span>
+                                <span class="val" id="schemeMaturityVal">₹55,000 + Bonus</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- VIRTUAL SHOPPING APPOINTMENT SECTION -->
+        <section class="section-padding" id="virtual-shopping">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Virtual Video Shopping</h2>
+                    <p>Can't visit our Karaikudi showroom? Schedule a personalized HD video call with our expert staff
+                        to browse designs live from your home.</p>
+                </div>
+
+                <div class="virtual-shop-grid">
+                    <!-- Left Visual Card -->
+                    <div class="virtual-shop-visual">
+                        <img src="assets/wedding_banner.png" alt="Virtual Shopping Experience">
+                        <div class="visual-overlay-card">
+                            <h4><i class="fa-solid fa-video"></i> Personalized Live Browsing</h4>
+                            <p>Browse detailed jewelry close-ups, weights, and fits in high-definition from anywhere in
+                                the world. Insured home delivery available.</p>
+                        </div>
+                    </div>
+
+                    <!-- Right Booking Card -->
+                    <div class="booking-form-card">
+                        <div class="calc-title">
+                            <i class="fa-solid fa-calendar-check"></i>
+                            <h3>Book Your Shopping Slot</h3>
+                        </div>
+
+                        <form id="virtualBookingForm">
+                            <div class="booking-form-grid">
+                                <div class="form-group">
+                                    <label for="bookName">Your Name</label>
+                                    <input type="text" id="bookName" placeholder="Enter name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="bookPhone">WhatsApp Number</label>
+                                    <input type="tel" id="bookPhone" placeholder="Enter mobile number" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="bookDate">Preferred Date</label>
+                                    <input type="date" id="bookDate" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="bookTime">Preferred Time Slot</label>
+                                    <select id="bookTime">
+                                        <option value="10:00 AM - 12:00 PM">10:00 AM - 12:00 PM</option>
+                                        <option value="12:00 PM - 02:00 PM">12:00 PM - 02:00 PM</option>
+                                        <option value="03:00 PM - 05:00 PM">03:00 PM - 05:00 PM</option>
+                                        <option value="05:00 PM - 07:00 PM">05:00 PM - 07:00 PM</option>
+                                    </select>
+                                </div>
+                                <div class="form-group form-full-width">
+                                    <label for="bookNotes">Jewellery Categories Interested In</label>
+                                    <input type="text" id="bookNotes"
+                                        placeholder="e.g. Bridal Necklaces, Gold Chains, Diamond Bangles">
+                                </div>
+                                <button type="submit" class="btn-luxury form-full-width" id="btnBookAppointment"><i
+                                        class="fa-brands fa-whatsapp"></i> Book & Confirm on WhatsApp</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CUSTOMER TESTIMONIALS -->
+        <section class="section-padding" style="background-color: #f1f7f6; border-top: 1px solid var(--border-glass);"
+            id="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2>What Our Customers Say</h2>
+                    <p>Building legacy relationships in Karaikudi and Chettinad through trusted purity and warmth.</p>
+                </div>
+
+                <div class="products-grid" style="grid-template-columns: repeat(3, 1fr); gap: 30px;"
+                    id="testimonialsGrid">
+                    <!-- Card 1 -->
+                    <div class="calculator-card" style="padding: 25px;">
+                        <span style="color: var(--gold-primary); font-size: 20px;"><i
+                                class="fa-solid fa-quote-left"></i></span>
+                        <p
+                            style="font-size: 14px; color: var(--text-muted); font-style: italic; margin-bottom: 20px; line-height: 1.6;">
+                            "The collection at Sethu Thanga Nagai Maaligai is absolutely phenomenal. I purchased my
+                            daughter's wedding set through their Thangamagal savings scheme, saving a huge amount on
+                            wastage. The staff is very warm and transparent."</p>
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <div
+                                style="width: 40px; height: 40px; border-radius: 50%; background: var(--teal-dark); color: white; display: flex; align-items: center; justify-content: center; font-weight: bold;">
+                                P</div>
+                            <div>
+                                <h4 style="font-size: 14px; font-weight: 700; color: var(--text-dark);">Priya Saravanan
+                                </h4>
+                                <span style="font-size: 11px; color: var(--gold-dark); font-weight: 600;">Karaikudi
+                                    Customer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="calculator-card" style="padding: 25px;">
+                        <span style="color: var(--gold-primary); font-size: 20px;"><i
+                                class="fa-solid fa-quote-left"></i></span>
+                        <p
+                            style="font-size: 14px; color: var(--text-muted); font-style: italic; margin-bottom: 20px; line-height: 1.6;">
+                            "I booked a virtual video call from USA to select a diamond choker for my sister's
+                            engagement. The experience was so seamless. They showed every detail, calculated weight
+                            transparently, and shipped it safely to Chennai."</p>
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <div
+                                style="width: 40px; height: 40px; border-radius: 50%; background: var(--teal-dark); color: white; display: flex; align-items: center; justify-content: center; font-weight: bold;">
+                                R</div>
+                            <div>
+                                <h4 style="font-size: 14px; font-weight: 700; color: var(--text-dark);">Rajesh
+                                    Chidambaram</h4>
+                                <span style="font-size: 11px; color: var(--gold-dark); font-weight: 600;">NRI Customer
+                                    (Chettinad)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="calculator-card" style="padding: 25px;">
+                        <span style="color: var(--gold-primary); font-size: 20px;"><i
+                                class="fa-solid fa-quote-left"></i></span>
+                        <p
+                            style="font-size: 14px; color: var(--text-muted); font-style: italic; margin-bottom: 20px; line-height: 1.6;">
+                            "Their antique jewellery collection matches the traditional heritage designs of Devakottai
+                            and Karaikudi perfectly. Genuine hallmarked gold. We are buying here for three generations
+                            now."</p>
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <div
+                                style="width: 40px; height: 40px; border-radius: 50%; background: var(--teal-dark); color: white; display: flex; align-items: center; justify-content: center; font-weight: bold;">
+                                M</div>
+                            <div>
+                                <h4 style="font-size: 14px; font-weight: 700; color: var(--text-dark);">Meenakshi Achi
+                                </h4>
+                                <span style="font-size: 11px; color: var(--gold-dark); font-weight: 600;">Traditional
+                                    Customer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER & SHOWROOM LOCATION -->
+    <footer id="showroom">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Col 1: Store profile -->
+                <div class="footer-col">
+                    <h3>Sethu Thanga Nagai Maaligai</h3>
+                    <p>A benchmark of purity and trust in Karaikudi since 1996. Offering certified 916 hallmarked gold,
+                        premium diamonds, and fine silver articles for all family occasions.</p>
+
+                    <ul class="footer-contact-list">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Old Shop No: 3, New Shop No: 11,<br>Kallukatti, Karaikudi,<br>Tamil Nadu - 627811,
+                                India</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+91 9600877706</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>support@sethuthangamaligai.com</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Col 2: Navigation Links -->
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#collections">Gold & Diamond Catalog</a></li>
+                        <li><a href="#savings-scheme">Savings Scheme Details</a></li>
+                        <li><a href="#virtual-shopping">Book Virtual Consultation</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="https://chitsavings.sethuthangamaligai.com/scheme.aspx" target="_blank">Chit Scheme
+                                Payment Portal</a></li>
+                        <li><a href="admin/">Admin Panel</a></li>
+                    </ul>
+
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/sethujewellers/" target="_blank" class="social-btn"
+                            aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/sethuthanganagaimaaligai/" target="_blank" class="social-btn"
+                            aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://wa.me/919600877706" target="_blank" class="social-btn" aria-label="WhatsApp"><i
+                                class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <!-- Col 3: Location Map -->
+                <div class="footer-col">
+                    <h4>Locate Our Showroom</h4>
+                    <p>Visit us in Karaikudi to view our complete physical catalog of wedding collections.</p>
+                    <div class="map-wrapper">
+                        <!-- Embedded STM Google Map -->
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15713.53148129023!2d78.765314!3d10.067681!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00675f5761e7a1%3A0xa8ce43df1e9c0fb6!2sSETHU%20THANGA%20NAGAI%20MAALIGAI!5e0!3m2!1sen!2sin!4v1759156630582!5m2!1sen!2sin"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                            title="Google Map of Showroom Location"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Copyright -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sethu Thanga Nagai Maaligai. All rights reserved. | 916 Hallmark Gold Certified Boutique.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- DYNAMIC QUICK VIEW MODAL WINDOW -->
+    <div class="modal-overlay" id="quickViewModal">
+        <div class="modal-card">
+            <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">&times;</button>
+            <div class="modal-body">
+                <div class="modal-img-wrap">
+                    <img id="modalProductImage" src="assets/gold_necklace.png" alt="Jewelry Image">
+                </div>
+                <div class="modal-info-wrap">
+                    <h3 id="modalProductName">Intricate Temple Gold Necklace</h3>
+
+                    <div class="modal-specs-table">
+                        <div class="modal-spec-row">
+                            <span class="label">Metal Category</span>
+                            <span class="val" id="modalProductCategory">Gold Jewellery</span>
+                        </div>
+                        <div class="modal-spec-row">
+                            <span class="label">Estimated Weight</span>
+                            <span class="val" id="modalProductWeight">12.50 Grams</span>
+                        </div>
+                        <div class="modal-spec-row">
+                            <span class="label">Purity Grade</span>
+                            <span class="val" id="modalProductPurity">22K (916 Hallmarked)</span>
+                        </div>
+                        <div class="modal-spec-row">
+                            <span class="label">Design Type</span>
+                            <span class="val" id="modalProductStyle">Traditional Antique</span>
+                        </div>
+                    </div>
+
+                    <div class="modal-price-box">
+                        <span class="price-title">Est. Product Price</span>
+                        <span class="price-val" id="modalProductPrice">₹90,625</span>
+                    </div>
+
+                    <div class="modal-action-row">
+                        <a href="#" target="_blank" class="modal-whatsapp-btn" id="modalWhatsappLink">
+                            <i class="fa-brands fa-whatsapp"></i> Inquire on WhatsApp
+                        </a>
+                        <button type="button" class="modal-add-cart-btn" id="modalAddToCartBtn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CART SIDE DRAWER -->
+    <div class="cart-drawer-overlay" id="cartDrawerOverlay">
+        <div class="cart-drawer">
+            <div class="cart-header">
+                <h3>Your Shopping Cart (<span id="cartCountTitle">0</span>)</h3>
+                <button type="button" class="cart-close-btn" id="cartCloseBtn">&times;</button>
+            </div>
+
+            <div class="cart-items-container" id="cartItemsList">
+                <!-- Cart items will be loaded dynamically by app.js -->
+                <div class="cart-empty-state">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <p>Your shopping cart is currently empty.</p>
+                </div>
+            </div>
+
+            <div class="cart-footer">
+                <div class="cart-summary-row">
+                    <span>Estimated Total</span>
+                    <span class="cart-total-price" id="cartTotalPriceVal">₹0</span>
+                </div>
+                <p style="font-size: 11px; color: var(--text-muted); margin-bottom: 15px;">*Taxes (3% GST) and custom
+                    making charges calculated at checkout.</p>
+                <a href="#" class="btn-checkout" id="cartCheckoutBtn">Proceed to Checkout</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Logic -->
+    <script src="app.js"></script>
+</body>
+
+</html>
