@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin Panel Requires PHP</title>
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+            font-family: Arial, sans-serif;
+            background: #091316;
+            color: #f5f8f8;
+        }
+
+        main {
+            max-width: 620px;
+            margin: 24px;
+            padding: 28px;
+            background: #0e1e22;
+            border: 1px solid rgba(147, 197, 203, 0.12);
+            border-radius: 12px;
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+        }
+
+        h1 {
+            margin-top: 0;
+            font-size: 26px;
+            color: #d4af37;
+        }
+
+        code {
+            display: block;
+            margin: 12px 0;
+            padding: 12px;
+            background: rgba(14, 30, 34, 0.8);
+            border: 1px solid rgba(147, 197, 203, 0.12);
+            border-radius: 8px;
+            color: #0f8b8d;
+            overflow-x: auto;
+        }
+        
+        p {
+            color: #8ea1a5;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <h1>Open Admin Through PHP Server</h1>
+    <p>This admin panel is PHP based. It will not run from a direct file URL like <strong>file:///K:/project/admin/</strong>.</p>
+    <p>Upload the project to PHP hosting, or run it locally with XAMPP/WAMP/Laragon, then open:</p>
+    <code>http://localhost/project/admin/</code>
+    <p>When PHP is running, the admin panel will load from <strong>admin/index.php</strong>.</p>
+</main>
+</body>
+</html>
